@@ -8,5 +8,5 @@ Script para cargar la base de datos:
 Archivo de configuración de la base de datos:
 - assets/database/database.php
 
-Usuario: orangelb
-Contraseña: orangelb
+Usuario: admin
+Contraseña: admin

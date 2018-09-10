@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Aug 24, 2018 at 07:08 PM
+-- Generation Time: Sep 10, 2018 at 06:34 PM
 -- Server version: 5.7.13-log
 -- PHP Version: 5.6.22
 
@@ -736,7 +736,7 @@ CREATE TABLE `zusuarios` (
 
 INSERT INTO `zusuarios` (`id`, `zusuario_id`, `zorganismo_id`, `zperfil_id`, `usuario`, `clave`, `fechacreacion`, `intentos`, `bloqueado`, `nombres`, `apellidos`, `cedula`, `direccion`, `telefonos`, `ultimavisita`) VALUES
 (1, 1, NULL, 1, 'jcvivas', '1605886a1aa62f063e6aa9bd4d268394', NULL, 0, 0, 'Juan Carlos', 'Vivas M', '', '', '', '2017-08-02 17:54:49'),
-(11, 1, NULL, 1, 'orangelb', 'dc928e9e9b69823ce163997fe022262a', '2018-08-24', 0, 0, 'Orangel R', 'Briceño C', '10457431', '', '', '2018-08-24 10:18:55');
+(11, 1, NULL, 1, 'admin', '21232f297a57a5a743894a0e4a801fc3', '2018-08-24', 0, 0, 'Administrador', '', '', '', '', '2018-08-24 10:18:55');
 
 --
 -- Indexes for dumped tables
@@ -815,7 +815,7 @@ ALTER TABLE `zorganismos`
 -- AUTO_INCREMENT for table `zperfiles`
 --
 ALTER TABLE `zperfiles`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 --
 -- AUTO_INCREMENT for table `zperfil_programas`
 --
